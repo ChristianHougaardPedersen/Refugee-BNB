@@ -5,7 +5,7 @@ The purpose of the system, is to make it easier for refugees and hosts to connec
 The system is implemented with an N-tier structure, with the following implementation:
 - The presentation tier is written in C# using the Blazor WASM framework.
 - The logic tier is written in Java using Spring.io and communication with the presentation tier is done using a REST-API, while communication with the data-tier is done using gRPC.
-- The data tier is implemented in java, using Spring.io and all data is persisted to a PostGreSQL database.
+- The data tier is implemented in Java, using Spring.io and all data is persisted to a PostGreSQL database.
 
 
 # Repository Structure
